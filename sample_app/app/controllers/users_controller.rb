@@ -18,7 +18,7 @@ class UsersController < ApplicationController
 
   	if @user.save
 
-  		flash[:success] = "Welcome to the Sample App!"
+  		flash[:success] = "Welcome to the Sample App!!"
 
   		redirect_to @user
   		
